@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
           <a href="#about" className="hover:text-emerald-600">About</a>
-          <a href="#features" className="hover:text-emerald-600">Features</a>
+          <a href="#features" className="hover:text-emerald-600">Problems</a>
           <a href="#discover" className="hover:text-emerald-600">Discover</a>
           <a href="#how" className="hover:text-emerald-600">How It Works</a>
         </div>

@@ -17,9 +17,9 @@ export default function Discover() {
 
       <Reveal>  
       <div className="mt-12 grid md:grid-cols-3 gap-6">
-        <img src="/discover1.jpg" className="rounded-xl shadow" />
-        <img src="/discover2.jpg" className="rounded-xl shadow" />
-        <img src="/discover3.jpg" className="rounded-xl shadow" />
+        <img src="/discover1.jpg" className="rounded-xl shadow border-4" />
+        <img src="/discover2.jpg" className="rounded-xl shadow border-4"/>
+        <img src="/discover3.jpg" className="rounded-xl shadow border-4"/>
       </div>
       </Reveal> 
     </section>
