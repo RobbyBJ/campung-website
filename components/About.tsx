@@ -9,9 +9,10 @@ export default function About() {
 
       <Reveal>
       <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-        CamPung is a digital travel platform dedicated to reconnecting people with 
-        Malaysia’s rural heritage — from serene landscapes and cultural traditions 
-        to authentic food, stories, and hidden attractions worth exploring.
+        CamPung is an EdTech–Travel platform that turns rural exploration into an educational and 
+        meaningful journey. Using AI-powered cultural recognition and interactive quests, it helps 
+        users discover Malaysia’s hidden villages while supporting local communities through 
+        purposeful, impact-driven travel.
       </p>
       </Reveal>
       

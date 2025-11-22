@@ -9,7 +9,8 @@ export default function Discover() {
 
       <Reveal>
       <p className="mt-6 text-lg text-gray-600">
-        Scenic landscapes, rivers, forests, heritage sites, and authentic kampung life.
+        Scenic landscapes, rivers, forests, and heritage sites that offer a peaceful escape and 
+        rejuvenating kampung experience.
       </p>
       </Reveal> 
 

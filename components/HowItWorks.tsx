@@ -1,9 +1,9 @@
 import Reveal from "./Reveal";
 
 const steps = [
-  "Search for unique destinations around Malaysia",
-  "Explore stories, culture, and highlights for each place",
-  "Save trips or share with friends for your next adventure",
+  "Search for unique hidden gems across Malaysia and uncover the stories, culture, and beauty tucked within its villages.",
+  "Visit these destinations and experience the rich tales, traditions, and special moments that make each one stand out.",
+  "Use your camera to unlock an educational travel experience, uncovering local crafts, stories, and heritage along the way.",
 ];
 
 export default function HowItWorks() {

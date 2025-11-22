@@ -2,16 +2,17 @@ import Reveal from "./Reveal";
 
 const features = [
   {
-    title: "Handpicked Destinations",
-    desc: "Discover kampung gems curated for authenticity and real cultural value.",
+    title: "1. Urban Burnout & Mental Fatigue",
+    desc: "People living in cities lack meaningful, low-cost ways to disconnect, recharge, and reconnect with nature and culture.",
+
   },
   {
-    title: "Local Stories",
-    desc: "Get to know the history and traditions behind every unique place.",
+    title: "2. Underexposure of Rural “Hidden Gems",
+    desc: "Many culturally rich villages remain unknown because they are not digitally represented or accessible through mainstream travel platforms.",
   },
   {
-    title: "Smart Recommendations",
-    desc: "Personalized suggestions based on your interests and travel preferences.",
+    title: "3. Declining Cultural Preservation",
+    desc: "Traditional crafts, heritage stories, and local knowledge are fading as younger generations disconnect from rural roots. CamPung helps preserve these through digital storytelling and AI-powered cultural recognition.",
   },
 ];
 
@@ -21,7 +22,7 @@ export default function Features() {
 
       <Reveal>
       <h2 className="text-4xl font-bold text-center text-emerald-700">
-        Features
+        Problems We Solve
       </h2> 
       </Reveal>
 
