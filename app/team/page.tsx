@@ -98,7 +98,7 @@ export default function TeamPage() {
       <div className="bg-[#f5f0e6] p-8 rounded-xl shadow-lg w-full mt-8">
         <img 
           src="/gp1.jpg"   // upload image to public folder
-          className="rounded-lg shadow mb-6 w-full object-cover h-110"
+          className="rounded-lg shadow mb-6 w-full object-cover h-64 sm:h-72 md:h-80 lg:h-96"
         />
         <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Project Kickoff - October 2025</h3>
         <p className="text-gray-700 leading-relaxed">
@@ -119,7 +119,7 @@ export default function TeamPage() {
       <div className="bg-[#f5f0e6] p-8 rounded-xl shadow-lg w-full mt-8">
         <img 
           src="/prototype.png"
-          className="rounded-lg shadow mb-6 w-full object-cover h-110"
+          className="rounded-lg shadow mb-6 w-full object-cover h-64 sm:h-72 md:h-80 lg:h-96"
         />
         <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Research & Prototype - October 2025</h3>
         <p className="text-gray-700 leading-relaxed">
@@ -140,7 +140,7 @@ export default function TeamPage() {
       <div className="bg-[#f5f0e6] p-8 rounded-xl shadow-lg w-full mt-8">
         <img 
           src="/launchx.jpg"
-          className="rounded-lg shadow mb-6 w-full object-cover h-110"
+          className="rounded-lg shadow mb-6 w-full object-cover h-64 sm:h-72 md:h-80 lg:h-96"
         />
         <h3 className="text-2xl font-semibold text-[#30501e] mb-3">LaunchX Kickstarter - November 2025</h3>
         <p className="text-gray-700 leading-relaxed">
