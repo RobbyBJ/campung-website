@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X } from "lucide-react"; // lightweight icon library
 import { Beth_Ellen } from "next/font/google";
 
   const bethEllen = Beth_Ellen({
@@ -10,12 +11,12 @@ import { Beth_Ellen } from "next/font/google";
   });
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        
+    <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+      <div className="flex justify-between items-center max-w-6xl mx-auto h-16 px-6">
+
         {/* LOGO + TITLE */}
         <div className="flex items-center">
           <img
@@ -32,58 +33,60 @@ export default function Navbar() {
           </span>
         </div>
 
-        {/* Desktop Links */}
-        <div className="hidden md:flex space-x-6">
-          <a href="#about" className="hover:text-emerald-600">About</a>
-          <a href="#features" className="hover:text-emerald-600">Problems</a>
-          <a href="#discover" className="hover:text-emerald-600">Discover</a>
-          <a href="#how" className="hover:text-emerald-600">How It Works</a>
+
+        {/* DESKTOP LINKS */}
+        <div className="hidden md:flex gap-8 text-gray-700 font-medium">
+          <Link href="/" className="hover:text-[#30501e]">Home</Link>
+          <Link href="/mission" className="hover:text-[#30501e]">Our Mission</Link>
+          <Link href="/features" className="hover:text-[#30501e]">Features</Link>
+          <Link href="/team" className="hover:text-[#30501e]">Our Team</Link>
         </div>
 
-        {/* Desktop Button */}
-        <div className="flex items-center gap-3">
-          <a
-          href="#cta"
-          className="hidden md:block bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition"
-          >
-        Join Beta
-        </a>
-      </div>
-
-
-        {/* Mobile Hamburger */}
+        {/* MOBILE HAMBURGER */}
         <button
-          className="md:hidden text-3xl"
-          onClick={() => setOpen(!open)}
+          className="md:hidden"
+          onClick={() => setMobileOpen(!mobileOpen)}
         >
-          ☰
+          {mobileOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            className="md:hidden bg-white shadow-lg px-6 py-4 space-y-4"
+      {/* MOBILE DROPDOWN MENU */}
+      {mobileOpen && (
+        <div className="md:hidden bg-white shadow-lg px-6 py-4 space-y-4 animate-slideDown">
+          <Link
+            href="/"
+            className="block text-gray-700 font-medium py-2"
+            onClick={() => setMobileOpen(false)}
           >
-            <a href="#about" onClick={() => setOpen(false)} className="block text-lg">About</a>
-            <a href="#features" onClick={() => setOpen(false)} className="block text-lg">Features</a>
-            <a href="#discover" onClick={() => setOpen(false)} className="block text-lg">Discover</a>
-            <a href="#how" onClick={() => setOpen(false)} className="block text-lg">How It Works</a>
+            Home
+          </Link>
 
-            <a
-              href="#cta"
-              onClick={() => setOpen(false)}
-              className="block bg-emerald-600 text-white px-4 py-2 rounded-lg text-center"
-            >
-              Join Beta
-            </a>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          <Link
+            href="/mission"
+            className="block text-gray-700 font-medium py-2"
+            onClick={() => setMobileOpen(false)}
+          >
+            Our Mission
+          </Link>
+
+          <Link
+            href="/features"
+            className="block text-gray-700 font-medium py-2"
+            onClick={() => setMobileOpen(false)}
+          >
+            Features
+          </Link>
+
+          <Link
+            href="/team"
+            className="block text-gray-700 font-medium py-2"
+            onClick={() => setMobileOpen(false)}
+          >
+            Our Team
+          </Link>
+        </div>
+      )}
     </nav>
   );
 }
