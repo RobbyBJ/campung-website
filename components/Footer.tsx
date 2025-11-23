@@ -104,11 +104,17 @@ export default function Footer() {
             </a>
 
             {/* Instagram */}
-            <a href="#" className="hover:opacity-70">
+            <a 
+              href="https://www.instagram.com/campung.official" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:opacity-70"
+            >
               <svg width="28" height="28" fill="#30501e" viewBox="0 0 24 24">
                 <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.65 0 3 1.35 3 3v10c0 1.66-1.35 3-3 3H7c-1.65 0-3-1.34-3-3V7c0-1.65 1.35-3 3-3h10zm-5 3.5A4.5 4.5 0 107 12a4.5 4.5 0 005-4.5zm0 7A2.5 2.5 0 119.5 12 2.5 2.5 0 0112 14.5zM17.5 7A1.5 1.5 0 1116 5.5 1.5 1.5 0 0117.5 7z"/>
               </svg>
             </a>
+
 
             {/* Twitter */}
             <a href="#" className="hover:opacity-70">

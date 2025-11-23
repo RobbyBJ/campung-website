@@ -29,8 +29,10 @@ export default function TeamPage() {
               <h3 className="text-2xl font-bold text-[#30501e]">Loo Boon Joon</h3>
               <p className="text-gray-700 font-semibold mb-3">Technical & Project Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                Final year Computer Science student at Sunway University. Passionate about letting others aware of nature and 
-                provide them an opportunity to explore somewhere that is quite and able to escape from busy city life.
+                As CamPung’s Technical and Project Lead, I build the platform behind our educational travel 
+                experience, focusing on AI, user experience, and community-driven features. My goal is to 
+                use technology to connect urban users with rural culture and help them rediscover the calm 
+                of kampung life.
               </p>
             </div>
           </Reveal>
@@ -42,8 +44,8 @@ export default function TeamPage() {
                 src="/team2.jpg"
                 className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
-              <h3 className="text-2xl font-bold text-[#30501e]">Name 2</h3>
-              <p className="text-gray-700 font-semibold mb-3">Role</p>
+              <h3 className="text-2xl font-bold text-[#30501e]">Cheong Lih Sin</h3>
+              <p className="text-gray-700 font-semibold mb-3">Business Development & Customer Engagement Lead</p>
               <p className="text-gray-600 leading-relaxed">
                 Short bio goes here. Describe their interests, expertise or 
                 contribution to the project.
@@ -58,8 +60,8 @@ export default function TeamPage() {
                 src="/team3.jpg"
                 className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
-              <h3 className="text-2xl font-bold text-[#30501e]">Name 3</h3>
-              <p className="text-gray-700 font-semibold mb-3">Role</p>
+              <h3 className="text-2xl font-bold text-[#30501e]">Ian Lim Yi An</h3>
+              <p className="text-gray-700 font-semibold mb-3">Marketing & Public Relations Lead</p>
               <p className="text-gray-600 leading-relaxed">
                 Short bio about this team member and their role in CamPung’s development.
               </p>
