@@ -75,7 +75,7 @@ export default function Footer() {
           <p className="text-gray-700">
             Email: 
               <a href="mailto:hello@campung.com" className="relative group ml-1">
-                hello@campung.com
+                 campung1016@gmail.com
                 <span className="absolute left-0 bottom-0 h-[2px] bg-[#30501e] w-0 group-hover:w-full transition-all duration-300"></span>
               </a>
           </p>

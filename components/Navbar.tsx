@@ -36,10 +36,27 @@ export default function Navbar() {
 
         {/* DESKTOP LINKS */}
         <div className="hidden md:flex gap-8 text-gray-700 font-medium">
-          <Link href="/" className="hover:text-[#30501e]">Home</Link>
-          <Link href="/mission" className="hover:text-[#30501e]">Our Mission</Link>
-          <Link href="/features" className="hover:text-[#30501e]">Features</Link>
-          <Link href="/team" className="hover:text-[#30501e]">Our Team</Link>
+
+        <Link href="/" className="relative group">
+          Home
+          <span className="absolute left-0 -bottom-1 h-[2px] bg-[#30501e] w-0 group-hover:w-full transition-all duration-300"></span>
+        </Link>
+
+        <Link href="/mission" className="relative group">
+          Our Mission
+        <span className="absolute left-0 -bottom-1 h-[2px] bg-[#30501e] w-0 group-hover:w-full transition-all duration-300"></span>
+        </Link>
+
+        <Link href="/features" className="relative group">
+          Features
+        <span className="absolute left-0 -bottom-1 h-[2px] bg-[#30501e] w-0 group-hover:w-full transition-all duration-300"></span>
+        </Link>
+
+        <Link href="/team" className="relative group">
+          Our Team
+        <span className="absolute left-0 -bottom-1 h-[2px] bg-[#30501e] w-0 group-hover:w-full transition-all duration-300"></span>
+        </Link>
+
         </div>
 
         {/* MOBILE HAMBURGER */}
@@ -53,18 +70,21 @@ export default function Navbar() {
 
       {/* MOBILE DROPDOWN MENU */}
       {mobileOpen && (
-        <div className="md:hidden bg-white shadow-lg px-6 py-4 space-y-4 animate-slideDown">
+        <div className="md:hidden bg-white shadow-lg px-6 py-4 space-y-2 animate-slideDown">
+
           <Link
             href="/"
-            className="block text-gray-700 font-medium py-2"
+            className="block text-gray-700 font-medium py-3 px-2 rounded-md 
+                 hover:bg-[#30501e] hover:text-white transition-all"
             onClick={() => setMobileOpen(false)}
           >
-            Home
+          Home
           </Link>
 
           <Link
             href="/mission"
-            className="block text-gray-700 font-medium py-2"
+            className="block text-gray-700 font-medium py-3 px-2 rounded-md 
+                 hover:bg-[#30501e] hover:text-white transition-all"
             onClick={() => setMobileOpen(false)}
           >
             Our Mission
@@ -72,21 +92,25 @@ export default function Navbar() {
 
           <Link
             href="/features"
-            className="block text-gray-700 font-medium py-2"
+            className="block text-gray-700 font-medium py-3 px-2 rounded-md 
+                 hover:bg-[#30501e] hover:text-white transition-all"
             onClick={() => setMobileOpen(false)}
           >
-            Features
+          Features
           </Link>
 
           <Link
             href="/team"
-            className="block text-gray-700 font-medium py-2"
+            className="block text-gray-700 font-medium py-3 px-2 rounded-md 
+                 hover:bg-[#30501e] hover:text-white transition-all"
             onClick={() => setMobileOpen(false)}
           >
-            Our Team
+          Our Team
           </Link>
+
         </div>
       )}
+
     </nav>
   );
 }

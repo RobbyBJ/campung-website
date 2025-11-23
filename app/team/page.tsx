@@ -23,14 +23,14 @@ export default function TeamPage() {
           <Reveal>
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
-                src="/team1.jpg"  // Replace with your real photo
-                className="w-40 h-40 rounded-full object-cover mx-auto shadow mb-6" 
+                src="/bj.jpg" 
+                className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
-              <h3 className="text-2xl font-bold text-[#30501e]">Name 1</h3>
-              <p className="text-gray-700 font-semibold mb-3">Role</p>
+              <h3 className="text-2xl font-bold text-[#30501e]">Loo Boon Joon</h3>
+              <p className="text-gray-700 font-semibold mb-3">Technical & Project Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                Short bio goes here. A few lines about who they are and what 
-                they contribute to CamPung.
+                Final year Computer Science student at Sunway University. Passionate about letting others aware of nature and 
+                provide them an opportunity to explore somewhere that is quite and able to escape from busy city life.
               </p>
             </div>
           </Reveal>
@@ -40,7 +40,7 @@ export default function TeamPage() {
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
                 src="/team2.jpg"
-                className="w-40 h-40 rounded-full object-cover mx-auto shadow mb-6" 
+                className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
               <h3 className="text-2xl font-bold text-[#30501e]">Name 2</h3>
               <p className="text-gray-700 font-semibold mb-3">Role</p>
@@ -56,7 +56,7 @@ export default function TeamPage() {
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
                 src="/team3.jpg"
-                className="w-40 h-40 rounded-full object-cover mx-auto shadow mb-6" 
+                className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
               <h3 className="text-2xl font-bold text-[#30501e]">Name 3</h3>
               <p className="text-gray-700 font-semibold mb-3">Role</p>
@@ -95,13 +95,14 @@ export default function TeamPage() {
       {/* Card */}
       <div className="bg-[#f5f0e6] p-8 rounded-xl shadow-lg w-full mt-8">
         <img 
-          src="/journey1.jpg"   // upload image to public folder
-          className="rounded-lg shadow mb-6 w-full object-cover h-60"
+          src="/gp1.jpg"   // upload image to public folder
+          className="rounded-lg shadow mb-6 w-full object-cover h-110"
         />
-        <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Project Kickoff</h3>
+        <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Project Kickoff - October 2025</h3>
         <p className="text-gray-700 leading-relaxed">
-          The idea of CamPung was formed — reimagining rural exploration 
-          through education and technology.
+          The idea of CamPung was formed from a desire to reimagine rural exploration by blending education with 
+          technology. Instead of simply visiting villages, CamPung transforms every journey into an opportunity 
+          to learn, discover cultural heritage, and engage meaningfully with local communities.
         </p>
       </div>
     </div>
@@ -115,13 +116,14 @@ export default function TeamPage() {
 
       <div className="bg-[#f5f0e6] p-8 rounded-xl shadow-lg w-full mt-8">
         <img 
-          src="/journey2.jpg"
-          className="rounded-lg shadow mb-6 w-full object-cover h-60"
+          src="/prototype.png"
+          className="rounded-lg shadow mb-6 w-full object-cover h-110"
         />
-        <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Research Phase</h3>
+        <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Research & Prototype - October 2025</h3>
         <p className="text-gray-700 leading-relaxed">
-          We studied user needs, rural communities, and local culture 
-          to shape the core experience.
+          We kicked off by diving into user research and market analysis to identify real needs within rural 
+          travel. With those insights, we developed early prototypes to validate our concept and refine
+          our approach.
         </p>
       </div>
     </div>
@@ -135,13 +137,14 @@ export default function TeamPage() {
 
       <div className="bg-[#f5f0e6] p-8 rounded-xl shadow-lg w-full mt-8">
         <img 
-          src="/journey3.jpg"
-          className="rounded-lg shadow mb-6 w-full object-cover h-60"
+          src="/launchx.jpg"
+          className="rounded-lg shadow mb-6 w-full object-cover h-110"
         />
-        <h3 className="text-2xl font-semibold text-[#30501e] mb-3">Prototype Build</h3>
+        <h3 className="text-2xl font-semibold text-[#30501e] mb-3">LaunchX Kickstarter - November 2025</h3>
         <p className="text-gray-700 leading-relaxed">
-          We started designing UI/UX, building features, and planning 
-          the app structure.
+          The team was selected as one of the Top 45 out of 300+ applicants in LaunchX, Malaysia’s Startup 
+          Accelerator Program. This achievement earned us an invitation to the Kickstarter phase, 
+          where we presented a mock pitch to real-world investors and received valuable industry feedback.
         </p>
       </div>
     </div>
