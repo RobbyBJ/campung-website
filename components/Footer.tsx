@@ -28,7 +28,7 @@ export default function Footer() {
           </span>
         </div>
           <p className="ml-[26px] text-gray-700 leading-relaxed">
-            Your camera, your guide — uncover the stories behind Malaysia’s villages.
+            Your camera, your guide. Uncover the stories behind Malaysia’s villages.
           </p>
         </div>
 

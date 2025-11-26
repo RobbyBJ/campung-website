@@ -23,13 +23,13 @@ export default function TeamPage() {
           <Reveal>
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
-                src="/bj.jpg" 
-                className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
+                src="/bj1.jpg" 
+                className="w-40 h-40 rounded-full object-cover object-[center_60%] mx-auto shadow mb-6" 
               />
               <h3 className="text-2xl font-bold text-[#30501e]">Loo Boon Joon</h3>
               <p className="text-gray-700 font-semibold mb-3">Technical & Project Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                As CamPung’s Technical and Project Lead, I build the platform behind our educational travel 
+                I am a Computer Science major and plays the role of CamPung’s Technical and Project Lead, I build the platform behind our educational travel 
                 experience, focusing on AI, user experience, and community-driven features. My goal is to 
                 use technology to connect urban users with rural culture and help them rediscover the calm 
                 of kampung life.
@@ -41,14 +41,16 @@ export default function TeamPage() {
           <Reveal>
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
-                src="/team2.jpg"
+                src="/lisyn.jpg"
                 className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
               <h3 className="text-2xl font-bold text-[#30501e]">Cheong Lih Sin</h3>
               <p className="text-gray-700 font-semibold mb-3">Business Development & Customer Engagement Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                Short bio goes here. Describe their interests, expertise or 
-                contribution to the project.
+                I’m a Financial Analysis major who brings energy and strategy to our programmes. I focus on 
+                building partnerships, engaging our community, and ensuring our business model runs 
+                smoothly. My goal is to help the kampung gain more exposure and opportunities while 
+                creating meaningful and memorable outdoor experiences for everyone.
               </p>
             </div>
           </Reveal>
