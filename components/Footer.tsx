@@ -80,7 +80,7 @@ export default function Footer() {
               </a>
           </p>
           <p className="text-gray-700 mt-2">
-            Phone: <span className="hover:text-[#30501e]">+60 12-3172916</span>
+            Phone: <span className="hover:text-[#30501e]">+60 11-2538 8608</span>
           </p>
           <p className="text-gray-700 mt-2">
             Address:<br />
