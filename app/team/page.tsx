@@ -24,7 +24,7 @@ export default function TeamPage() {
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
                 src="/bj1.jpg" 
-                className="w-40 h-40 rounded-full object-cover object-[center_60%] mx-auto shadow mb-6" 
+                className="w-32 h-40 rounded-full object-cover object-[center_60%] mx-auto shadow mb-6" 
               />
               <h3 className="text-2xl font-bold text-[#30501e]">Loo Boon Joon</h3>
               <p className="text-gray-700 font-semibold mb-3">Technical & Project Lead</p>
