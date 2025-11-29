@@ -29,7 +29,7 @@ export default function TeamPage() {
               <h3 className="text-2xl font-bold text-[#30501e]">Loo Boon Joon</h3>
               <p className="text-gray-700 font-semibold mb-3">Technical & Project Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                I am a Computer Science major and plays the role of CamPung’s Technical and Project Lead, I build the platform behind our educational travel 
+                A Computer Science major and plays the role of CamPung’s Technical and Project Lead, I build the platform behind our educational travel 
                 experience, focusing on AI, user experience, and community-driven features. My goal is to 
                 use technology to connect urban users with rural culture and help them rediscover the calm 
                 of kampung life.
@@ -47,10 +47,10 @@ export default function TeamPage() {
               <h3 className="text-2xl font-bold text-[#30501e]">Cheong Lih Sin</h3>
               <p className="text-gray-700 font-semibold mb-3">Business Development & Customer Engagement Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                I’m a Financial Analysis major who brings energy and strategy to our programmes. I focus on 
+                A Financial Analysis major who brings strategy to our programmes. I focus on 
                 building partnerships, engaging our community, and ensuring our business model runs 
-                smoothly. My goal is to help the kampung gain more exposure and opportunities while 
-                creating meaningful and memorable outdoor experiences for everyone.
+                smoothly. My goal is to help rural areas gain more exposure and opportunities while 
+                creating meaningful outdoor experiences for everyone.
               </p>
             </div>
           </Reveal>
@@ -59,13 +59,17 @@ export default function TeamPage() {
           <Reveal>
             <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
               <img 
-                src="/team3.jpg"
+                src="/ian.jpg"
                 className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
               />
               <h3 className="text-2xl font-bold text-[#30501e]">Ian Lim Yi An</h3>
               <p className="text-gray-700 font-semibold mb-3">Marketing & Public Relations Lead</p>
               <p className="text-gray-600 leading-relaxed">
-                Short bio about this team member and their role in CamPung’s development.
+                A Networking and Security major, I’ve shifted my focus from building 
+                digital systems to designing meaningful human connections. At CamPung, I lead design 
+                and customer relations, dedicated to the mission of making Malaysia's rural areas 
+                viable and vibrant again. I’m here to guide you on a journey to rediscover the 
+                authentic calm of kampung life.
               </p>
             </div>
           </Reveal>
@@ -73,21 +77,21 @@ export default function TeamPage() {
         </section>
 
         {/* TIMELINE SECTION */}
-<Reveal>
-  <h2 className="text-4xl font-bold text-[#30501e] text-center mb-16">
-    Our Journey
-  </h2>
-</Reveal>
+        <Reveal>
+          <h2 className="text-4xl font-bold text-[#30501e] text-center mb-16">
+            Our Journey
+          </h2>
+        </Reveal>
 
-<section className="relative max-w-3xl mx-auto">
+        <section className="relative max-w-3xl mx-auto">
 
-  {/* Vertical timeline line */}
-  <div className="absolute left-1/2 top-0 bottom-0 transform -translate-x-1/2 w-1 bg-[#30501e]/30"></div>
+    {/* Vertical timeline line */}
+    <div className="absolute left-1/2 top-0 bottom-0 transform -translate-x-1/2 w-1 bg-[#30501e]/30"></div>
 
-  {/* --- TIMELINE ITEM TEMPLATE ---
+    {/* --- TIMELINE ITEM TEMPLATE ---
       Each item now has a LARGE card for image + text 
       and generous spacing
-  */}
+    */}
 
   {/* ITEM 1 */}
   <Reveal>
@@ -154,7 +158,7 @@ export default function TeamPage() {
     </div>
   </Reveal>
 
-  {/* ITEM 4 */}
+  {/*
   <Reveal>
     <div className="relative flex flex-col items-center mb-32">
 
@@ -174,7 +178,7 @@ export default function TeamPage() {
     </div>
   </Reveal>
 
-  {/* ITEM 5 */}
+
   <Reveal>
     <div className="relative flex flex-col items-center mb-32">
 
@@ -193,6 +197,7 @@ export default function TeamPage() {
       </div>
     </div>
   </Reveal>
+  */}
 
 </section>
 
