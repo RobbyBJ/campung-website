@@ -54,26 +54,6 @@ export default function TeamPage() {
               </p>
             </div>
           </Reveal>
-
-          {/* TEAM MEMBER 3 */}
-          <Reveal>
-            <div className="bg-[#f5f0e6] p-8 rounded-xl shadow text-center">
-              <img 
-                src="/ian.jpg"
-                className="w-32 h-40 rounded-full object-cover object-[center_10%] mx-auto shadow mb-6" 
-              />
-              <h3 className="text-2xl font-bold text-[#30501e]">Ian Lim Yi An</h3>
-              <p className="text-gray-700 font-semibold mb-3">Marketing & Public Relations Lead</p>
-              <p className="text-gray-600 leading-relaxed">
-                A Networking and Security major, I’ve shifted my focus from building 
-                digital systems to designing meaningful human connections. At CamPung, I lead design 
-                and customer relations, dedicated to the mission of making Malaysia's rural areas 
-                viable and vibrant again. I’m here to guide you on a journey to rediscover the 
-                authentic calm of kampung life.
-              </p>
-            </div>
-          </Reveal>
-
         </section>
 
         {/* TIMELINE SECTION */}
